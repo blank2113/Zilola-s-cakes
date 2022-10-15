@@ -1,47 +1,43 @@
 <section class="form">
     <div class="container">
-        <div class="form__inner">
-            <form action="#" class="form__inner-wrapper">
-                <div class="form__inner-title">Do you have questions? Let’s talk</div>
-                <div class="customer-info">
-                    <div class="name">
+        <div class="form__inner" id="part1">
+            <form action="post" class="form__inner-wrapper form-wrapper">
+                <h5 class="form-wrapper__title">Do you have questions? Let’s talk</h5>
+                <div class="form-wrapper-top">
+                    <div class="form-wrapper-top__content">
                         <input type="text" placeholder="Enter name">
-                    </div>
-                    <div class="email">
                         <input type="email" placeholder="Enter E-mail">
                     </div>
-                </div>
-                <div class="customer-contacts">
-                    <div class="number">
-                        <input type="text" placeholder="Enter phone number"  class="q">
-                    </div>
-                    <div class="question-type">
-                        <select name="theme" required="required">
+                    <div class="form-wrapper-top__content">
+                        <input type="text" placeholder="Enter phone number">
+                        <select name="select" id="">
                             <option value="">Type of question</option>
-                            <option>What about price?</option>
-                            <option>What about price?</option>
-                            <option>What about price?</option>
-                            <option>What about price?</option>
+                            <option value="">qwerty</option>
+                            <option value="">qwerty</option>
+                            <option value="">qwerty</option>
+                            <option value="">qwerty</option>
                         </select>
                     </div>
                 </div>
-                    <div class="question">
-                        <div class="question-title">Write your question</div>
-                        <input type="text" class="question-input">
+                <div class="form-wrapper-bottom">
+                    <div class="form-wrapper-bottom__content-b content-b">
+                        <p class="content-b__title">Write your question</p>
+                        <input type="text" placeholder="" class="question">
                     </div>
-                    <div class="bottom-sector">
-                        <div class="checkbox">
-                            <div class="terms">
-                                <input type="checkbox" name="" id="">
-                                <p class="terms-title">I agree with terms</p>
+                    <div class="form-wrapper-bottom__content-b  content-b-b">
+                            <div class="checkbox">
+                                <label class="terms">
+                                    <input type="checkbox" name="" id="">
+                                    <p class="terms-title">I agree with terms</p>
+                                </label>
+                                <label class="cookies">
+                                    <input type="checkbox" name="" id="">
+                                    <p class="cookies-title">I agree with terms</p>
+                                </label>
                             </div>
-                            <div class="cookies">
-                                <input type="checkbox" name="" id="">
-                                <p class="cookies-title">I agree with terms</p>
-                            </div>
-                        </div>
-                        <button class="form-btn">Send</button>
+                            <button class="content-b__btn">Send</button>
                     </div>
+                </div>
             </form>
         </div>
     </div>

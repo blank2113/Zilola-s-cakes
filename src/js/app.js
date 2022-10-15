@@ -18,3 +18,15 @@ headerWrapper.addEventListener('click',()=>{
     body.classList.toggle('lock')
     console.log(1);
 })
+
+const link = document.querySelectorAll('.nav__list');
+
+link.forEach(menulink =>{
+    menulink.addEventListener('click',(e)=>{
+        headerWrapper.classList.remove('active')
+        headerBurger.classList.remove('active');
+        nav.classList.remove('active');
+        body.classList.remove('lock')
+    })
+})
+
